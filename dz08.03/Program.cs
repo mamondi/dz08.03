@@ -134,11 +134,9 @@ namespace dz08._03
             Console.WriteLine("City 1 Population: " + city1.Population);
             Console.WriteLine("City 2 Population: " + city2.Population);
 
-            // Increase population of city1 by 100,000
             city1 += 100000;
             Console.WriteLine("City 1 Population after increase: " + city1.Population);
 
-            // Check if city1 population is greater than city2 population
             if (city1 > city2)
             {
                 Console.WriteLine("City 1 has a larger population than City 2");
